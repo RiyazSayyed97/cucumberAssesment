@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-19T15:55:17 IST" name="Suite" finished-at="2022-06-19T15:55:32 IST" duration-ms="14785">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@4cc451f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@2f9f7dcf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-19T15:55:17 IST" name="Test" finished-at="2022-06-19T15:55:26 IST" duration-ms="9154">
+      <class name="Runner.Runner2">
+        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:17 IST" name="setupTest" finished-at="2022-06-19T15:55:23 IST" duration-ms="5686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browserName1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:23 IST" name="setUpClass" finished-at="2022-06-19T15:55:23 IST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@474c9131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUPClass()[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:23 IST" name="setUPClass" finished-at="2022-06-19T15:55:23 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-19T15:55:25 IST" duration-ms="1493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing https://shark-2000.github.io/test-website/ContactMe.html]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="f1(org.testng.ITestResult)[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:25 IST" name="f1" finished-at="2022-06-19T15:55:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@4cc451f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-19T15:55:26 IST" duration-ms="996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing https://shark-2000.github.io/test-website/ContactMe.html]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="f1(org.testng.ITestResult)[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:26 IST" name="f1" finished-at="2022-06-19T15:55:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@4cc451f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="runScenarios()[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:26 IST" name="runScenarios" finished-at="2022-06-19T15:55:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenarios -->
+        <test-method is-config="true" signature="f1(org.testng.ITestResult)[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:26 IST" name="f1" finished-at="2022-06-19T15:55:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenarios status=SUCCESS method=Runner2.runScenarios()[pri:0, instance:Runner.Runner2@4cc451f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:26 IST" name="afterClass" finished-at="2022-06-19T15:55:26 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runner2@4cc451f2]" started-at="2022-06-19T15:55:26 IST" name="tearDownClass" finished-at="2022-06-19T15:55:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Runner2 -->
+    </test> <!-- Test -->
+    <test started-at="2022-06-19T15:55:26 IST" name="Test2" finished-at="2022-06-19T15:55:32 IST" duration-ms="5601">
+      <class name="Runner.Runner2">
+        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:26 IST" name="setupTest" finished-at="2022-06-19T15:55:29 IST" duration-ms="2967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browserName2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:29 IST" name="setUpClass" finished-at="2022-06-19T15:55:29 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@66213a0d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUPClass()[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:29 IST" name="setUPClass" finished-at="2022-06-19T15:55:29 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-19T15:55:31 IST" duration-ms="1363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing https://shark-2000.github.io/test-website/ContactMe.html]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="f1(org.testng.ITestResult)[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:31 IST" name="f1" finished-at="2022-06-19T15:55:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@2f9f7dcf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-19T15:55:32 IST" duration-ms="1105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing https://shark-2000.github.io/test-website/ContactMe.html]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="f1(org.testng.ITestResult)[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:32 IST" name="f1" finished-at="2022-06-19T15:55:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner2@2f9f7dcf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="runScenarios()[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:32 IST" name="runScenarios" finished-at="2022-06-19T15:55:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenarios -->
+        <test-method is-config="true" signature="f1(org.testng.ITestResult)[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:32 IST" name="f1" finished-at="2022-06-19T15:55:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenarios status=SUCCESS method=Runner2.runScenarios()[pri:0, instance:Runner.Runner2@2f9f7dcf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:32 IST" name="afterClass" finished-at="2022-06-19T15:55:32 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runner2@2f9f7dcf]" started-at="2022-06-19T15:55:32 IST" name="tearDownClass" finished-at="2022-06-19T15:55:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Runner2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
